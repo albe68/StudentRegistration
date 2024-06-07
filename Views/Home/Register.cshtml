@@ -1,0 +1,36 @@
+@model StudentRegistration.Models.Student
+
+<form asp-action="Register" method="post">
+    <div>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label asp-for="Age"></label>
+        <input asp-for="Age" />
+    </div>
+    <div>
+        <label asp-for="DOB"></label>
+        <input asp-for="DOB" />
+    </div>
+    <div>
+        <label asp-for="Gender"></label>
+        <input asp-for="Gender" />
+    </div>
+    <div>
+        <label asp-for="EmailId">Email ID</label>
+        <input asp-for="EmailId" />
+    </div>
+    <div>
+        <label asp-for="PhoneNumber">Phone Number</label>
+        <input asp-for="PhoneNumber" />
+    </div>
+    
+    <div>
+        <input type="submit" value="Register" />
+    </div>
+</form>
