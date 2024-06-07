@@ -1,0 +1,87 @@
+
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+.vscode-test/
+
+# Folders
+bin/
+obj/
+*.osx
+
+# Rider
+.idea/
+.idea_modules/
+.idea_working_sets.xml
+
+# VS Code
+.history/
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Core
+.migrations/
+
+# Logs
+*.log
+
+# NPM
+node_modules/
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+yarn-error.log
+
+# Runtime generated
+*.pdb
+*.mdb
+*.exe
+*.stackdump
+*.stacktrace
+*.vs
+
+# Dependencies
+lib
+
+# Build results
+.DS_Store
+*.exe
+*.exe.config
+*.exe.config.save
+*.exe.manifest
+*.exe.manifest.save
+*.ilk
+*.o
+*.obj
+*.orig
+*.log
+
+# Others
+project.lock.json
+project.fragment.lock.json
+artifacts/
+Project.lock.json
+project.lock.json
