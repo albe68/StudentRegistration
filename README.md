@@ -28,7 +28,7 @@ This project is a simple ASP.NET Core web application for registering students. 
 
 3. Restore the dependencies:
     ```
-dotnet restore
+    dotnet restore
     ```
 
 4. Run the application:
